@@ -2,8 +2,7 @@ import random
 
 def roll_die(k):
     # Tvůj kód zde
-    numbers = [1,2,3,4,5,6]
-    return(random.choice(numbers))
+    return(random.randint(1,k))
     pass
 
 # Otestování funkce

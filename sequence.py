@@ -1,7 +1,8 @@
 import random
 
 def generate_sequence(n):
-    # Tvůj kód zde
+    for _ in range(10):
+        print(random.randint(1,n))
     pass
 
 # Otestování funkce
